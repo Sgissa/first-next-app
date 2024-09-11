@@ -17,6 +17,7 @@ export default function About() {
           </li>
         </ul>
       </nav>
+      <section>
       <h1>Ty Streets</h1>
       <h3>Interests</h3>
       <ul>
@@ -26,6 +27,8 @@ export default function About() {
         <li>VR / AR</li>
         <li>Marshmallows</li>
       </ul>
+      </section>
+      
     </main>
   );
 }
