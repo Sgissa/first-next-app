@@ -43,3 +43,12 @@
   border-radius: 50px;
 
 }
+
+.productsList {
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
