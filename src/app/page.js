@@ -2,7 +2,7 @@
 import homeStyles from "@/app/page.module.css";
 
 
-export default function home() {
+export default function Home() {
   const headerStyle = {
     backgroundColor: "lightcoral",
     height: "100px",
@@ -36,7 +36,7 @@ export default function home() {
   const isTuesday = true;
   const showNull = null;
 
-  return (
+
     <main>
       <nav className={homeStyles.homeNav}>
         <ul>
@@ -70,5 +70,5 @@ export default function home() {
       <p>Show Null: {String(null)}</p>
       <button onClick={openModal}>View Sun</button>
     </main>
-  );
+
 }
