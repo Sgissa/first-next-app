@@ -36,7 +36,7 @@ export default function Home() {
   const isTuesday = true;
   const showNull = null;
 
-
+  return (
     <main>
       <nav className={homeStyles.homeNav}>
         <ul>
@@ -70,5 +70,5 @@ export default function Home() {
       <p>Show Null: {String(null)}</p>
       <button onClick={openModal}>View Sun</button>
     </main>
-
+  );
 }
